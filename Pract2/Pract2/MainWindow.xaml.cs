@@ -22,7 +22,7 @@ namespace Pract2
         usersTableAdapter usr = new usersTableAdapter();
         ordersTableAdapter orders = new ordersTableAdapter();
         int userId = 0;
-        int? sum = 12;
+        int sum = 0;
         public MainWindow()
         {
             InitializeComponent();
@@ -51,6 +51,20 @@ namespace Pract2
         {
             object cell = (ComboBox1.SelectedItem as DataRowView).Row[0];
             userId = (int)cell;
+        }
+
+        private void delButton_Click(object sender, RoutedEventArgs e)
+        {
+            object id = (usersDataGrid.SelectedItem as DataRowView).Row[0];
+            usr.DeleteUser(Convert.ToInt32(id));
+            usersDataGrid.ItemsSource = usr.GetData();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            object id1 = (grid2.SelectedItem as DataRowView).Row[0];
+            orders.DeleteOrder(Convert.ToInt32(id1));
+            grid2.ItemsSource = orders.GetData();
         }
     }
 }

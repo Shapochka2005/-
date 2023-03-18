@@ -12,13 +12,15 @@
             <TabItem Header="TabItem">
                 <Grid Background="#FFE5E5E5">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="93*"/>
+                        <ColumnDefinition Width="78*"/>
+                        <ColumnDefinition Width="15*"/>
                         <ColumnDefinition Width="701*"/>
                     </Grid.ColumnDefinitions>
-                    <DataGrid x:Name="usersDataGrid" Grid.ColumnSpan="2"/>
-                    <Button x:Name="AddButton" Content="Button" HorizontalAlignment="Left" Margin="304,327,0,0" VerticalAlignment="Top" Height="58" Width="191" Click="AddButton_Click" Grid.Column="1"/>
-                    <TextBox x:Name="usernamebox" HorizontalAlignment="Left" Margin="77,327,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="58" Width="88" RenderTransformOrigin="-0.394,0.575" Grid.ColumnSpan="2"/>
-                    <TextBox x:Name="emailbox" HorizontalAlignment="Left" Margin="152,327,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="58" Width="89" Grid.Column="1"/>
+                    <DataGrid x:Name="usersDataGrid" Grid.ColumnSpan="3"/>
+                    <Button x:Name="AddButton" Content="Button" HorizontalAlignment="Left" Margin="304,327,0,0" VerticalAlignment="Top" Height="58" Width="191" Click="AddButton_Click" Grid.Column="2"/>
+                    <TextBox x:Name="usernamebox" HorizontalAlignment="Left" Margin="77,327,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="58" Width="88" RenderTransformOrigin="-0.394,0.575" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="emailbox" HorizontalAlignment="Left" Margin="152,327,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="58" Width="89" Grid.Column="2"/>
+                    <Button x:Name="delButton" Grid.Column="2" Content="Удаление" HorizontalAlignment="Left" Margin="584,333,0,0" VerticalAlignment="Top" Height="46" Width="74" RenderTransformOrigin="1.328,1.012" Click="delButton_Click"/>
                 </Grid>
             </TabItem>
             <TabItem Header="TabItem">
@@ -28,6 +30,7 @@
                     <Button Content="Button" HorizontalAlignment="Center" Margin="0,324,0,0" VerticalAlignment="Top" Height="49" Width="96" Click="Button_Click"/>
                     <TextBox x:Name="Text1" HorizontalAlignment="Left" Margin="73,324,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="80" Height="42"/>
                     <TextBox x:Name="TextAdd" HorizontalAlignment="Left" Margin="204,324,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="80" Height="42"/>
+                    <Button Content="Удаление" HorizontalAlignment="Left" Margin="526,324,0,0" VerticalAlignment="Top" Height="44" Width="65" Click="Button_Click_1"/>
                 </Grid>
             </TabItem>
         </TabControl>
