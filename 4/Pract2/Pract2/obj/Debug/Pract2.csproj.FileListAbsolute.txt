@@ -1,0 +1,16 @@
+C:\Users\ASUS\source\repos\Pract2\Pract2\bin\Debug\Pract2.exe.config
+C:\Users\ASUS\source\repos\Pract2\Pract2\bin\Debug\Pract2.exe
+C:\Users\ASUS\source\repos\Pract2\Pract2\bin\Debug\Pract2.pdb
+C:\Users\ASUS\source\repos\Pract2\Pract2\obj\Debug\Pract2.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\Pract2\Pract2\obj\Debug\Pract2.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\source\repos\Pract2\Pract2\obj\Debug\MainWindow.g.cs
+C:\Users\ASUS\source\repos\Pract2\Pract2\obj\Debug\App.g.cs
+C:\Users\ASUS\source\repos\Pract2\Pract2\obj\Debug\Pract2_MarkupCompile.cache
+C:\Users\ASUS\source\repos\Pract2\Pract2\obj\Debug\Pract2_MarkupCompile.lref
+C:\Users\ASUS\source\repos\Pract2\Pract2\obj\Debug\MainWindow.baml
+C:\Users\ASUS\source\repos\Pract2\Pract2\obj\Debug\Pract2.g.resources
+C:\Users\ASUS\source\repos\Pract2\Pract2\obj\Debug\Pract2.Properties.Resources.resources
+C:\Users\ASUS\source\repos\Pract2\Pract2\obj\Debug\Pract2.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\Pract2\Pract2\obj\Debug\Pract2.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Pract2\Pract2\obj\Debug\Pract2.exe
+C:\Users\ASUS\source\repos\Pract2\Pract2\obj\Debug\Pract2.pdb
